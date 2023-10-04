@@ -37,8 +37,8 @@
                         name="recompute_lines_agents"
                         type="object"
                         string="Regenerate agents"
-                        states="draft,sent,sale"
                     />
+                    
                 </group>
             </xpath>
         </field>
