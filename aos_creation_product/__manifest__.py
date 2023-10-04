@@ -18,7 +18,7 @@ Account Voucher
     'data': [
         'security/ir_group.xml',
         'security/ir.model.access.csv',
-        'views/sale_order_views.xml',
+        # 'views/sale_order_views.xml',
         'views/purchase_order_views.xml',
         'views/picking_views.xml',
         'views/stock_production_lot_views.xml',

@@ -38,7 +38,7 @@
                         type="object"
                         string="Regenerate agents"
                     />
-                    
+
                 </group>
             </xpath>
         </field>

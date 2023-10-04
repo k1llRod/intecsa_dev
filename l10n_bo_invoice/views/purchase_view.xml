@@ -17,7 +17,8 @@
                 </xpath>-->
 
                 <xpath expr="//field[@name='partner_ref']" position="after">
-   		    <field name="nro_factura" attrs="{'invisible':[('invoice_bol', '!=', True)]}"/>
+                    <field name="invoice_bol" invisible="1" />
+                    <field name="nro_factura" attrs="{'invisible':[('invoice_bol', '!=', True)]}"/>
                     <field name="date_invoice" attrs="{'invisible':[('invoice_bol', '!=', True)]}"/>
                     <!--<field name="discount_amount" optional="hide"/>-->
                 </xpath>
