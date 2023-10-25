@@ -77,7 +77,7 @@
                                 <span t-field="o.date_order" t-options="{'format': 'MMMM '}"/>
                                 del
                                 <span t-field="o.date_order" t-options="{'format': 'YYYY'}"/><br/>
-                                <strong>Señor (es):</strong><br/>
+                                <strong>Señors (es):</strong><br/>
                                     <span t-field="o.partner_id" /><br/>
                                     <span t-if="o.partner_id.street" 
                                         t-field="o.partner_id.street" /><br/>

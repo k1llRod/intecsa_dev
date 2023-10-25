@@ -5,4 +5,5 @@ class ResPartnerCategory(models.Model):
 
     class_partner = fields.Selection([('class_a','Clase A'),
                                       ('class_b','Clase B'),
-                                      ('class_c','Clase C')],string='Clase de asociado',default='class_a')
+                                      ('class_c','Clase C')],string='Clase de contacto')
+
